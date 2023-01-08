@@ -1,0 +1,91 @@
+<%@tag pageEncoding="UTF-8" %>
+
+<!-- Footer Start -->
+<div class="container-fluid bg-secondary text-dark mt-5 pt-5">
+    <div class="row px-xl-5 pt-5">
+        <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+            <a href="" class="text-decoration-none">
+            
+                <h1 class="mb-4 display-5 font-weight-semi-bold"><span
+                        class="text-primary font-weight-bold px-3">Turismo</span>Uy</h1>
+            </a>
+            <p> Desde sus comienzos en el año 2022, Turismo.uy se ha destacado como una empresa proveedora de servicios
+                turísticos en el Uruguay. Basándonos en la permanente actualización de nuestra infraestructura
+                tecnológica y
+                en el personal capacitado en turismo nacional. Nuestro objetivo es proporcionar a nuestros clientes el
+                mejor
+                “Servicio Turístico Integral” del mercado, buscando no sólo satisfacer, sino superar sus
+                expectativas.</p>
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Av. Julio Herrera y Reissig 565,
+                Montevideo, URU</p>
+            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i> TProg_G22@fing.edu.uy</p>
+            <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+598 99 999 999</p>
+        </div>
+        <div class="col-lg-8 col-md-12">
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <h5 class="font-weight-bold text-dark mb-4">Enlaces de utilidad</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-dark mb-2" href="Home"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                        <a class="text-dark mb-2" href="ConsultarActividades"><i class="fa fa-angle-right mr-2"></i>Actividades
+                            Turisticas</a>
+                        <a class="text-dark mb-2" href="ConsultaSalidas"><i class="fa fa-angle-right mr-2"></i>Salidas
+                            Turisticas</a>
+                        <a class="text-dark" href="contact"><i class="fa fa-angle-right mr-2"></i>Contactenos</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h5 class="font-weight-bold text-dark mb-4">Informacion Covid-19</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-dark mb-2"
+                           href="https://www.gub.uy/ministerio-salud-publica/comunicacion/publicaciones/recomendaciones-protocolos-relacionados-covid-19"><i
+                                class="fa fa-angle-right mr-2"></i>Covid-19: ¿Qué precauciones tomar para viajar seguro?</a>
+                        <a class="text-dark mb-2" href="https://www.gub.uy/tramites/permiso-menor-edad"><i
+                                class="fa fa-angle-right mr-2"></i>Si soy menor ¿Como puedo tramitar el permiso del
+                            menor para viajar?</a>
+                        <a class="text-dark mb-2"
+                           href="https://www.gub.uy/ministerio-salud-publica/comunicacion/publicaciones/recomendaciones-protocolos-relacionados-covid-19"><i
+                                class="fa fa-angle-right mr-2"></i>Recomendaciones para viajar por Uruguay</a>
+                        <a class="text-dark mb-2"
+                           href="https://www.gub.uy/ministerio-turismo/comunicacion/noticias/hacer-declaracion-jurada-salud-formato-digital"><i
+                                class="fa fa-angle-right mr-2"></i>¿Como hago la declaracion jurada digital de
+                            salud?</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control border-0 py-4" placeholder="Nombre"
+                                   required="required"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control border-0 py-4" placeholder="Email"
+                                   required="required"/>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-block border-0 py-3" type="submit">Suscribirme</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row border-top border-light mx-xl-5 py-4 overflow-hidden">
+        <div class="col-md-6 px-xl-0">
+            <p class="mb-md-0 text-center text-md-left text-dark">
+                &copy; <a class="text-dark font-weight-semi-bold" href="https://www.fing.edu.uy/">Facultad de
+                ingenieria</a>. Derechos reservados. Diseñado por Grupo 22.
+            </p>
+        </div>
+        <div class="col-md-6 px-xl-0 text-center text-md-right">
+            <img class="img-fluid" src="media/img/payments.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-primary back-to-top"
+><i class="fa fa-angle-double-up"></i
+></a>
