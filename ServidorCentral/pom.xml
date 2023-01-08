@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.turismouy22</groupId>
+    <artifactId>servidor-central</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.zeroturnaround/zt-zip -->
+        <dependency>
+            <groupId>org.zeroturnaround</groupId>
+            <artifactId>zt-zip</artifactId>
+            <version>1.15</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.6.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>4.6.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.jws</groupId>
+            <artifactId>jakarta.jws-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.xml.ws</groupId>
+            <artifactId>jakarta.xml.ws-api</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.ws</groupId>
+            <artifactId>rt</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jni</artifactId>
+            <version>10.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-coyote</artifactId>
+            <version>10.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- https://stackoverflow.com/questions/3017695/how-to-configure-encoding-in-maven -->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.test.skip>true</maven.test.skip>
+    </properties>
+
+    <!-- https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-runnable-jar-with-dependencies-using-maven -->
+    <!-- mvn clean compile assembly:single -->
+
+    <!--    <build>-->
+    <!--        <plugins>-->
+    <!--&lt;!&ndash;            <plugin>&ndash;&gt;-->
+    <!--&lt;!&ndash;                <artifactId>maven-assembly-plugin</artifactId>&ndash;&gt;-->
+    <!--&lt;!&ndash;                <configuration>&ndash;&gt;-->
+    <!--&lt;!&ndash;                    <archive>&ndash;&gt;-->
+    <!--&lt;!&ndash;                        <manifest>&ndash;&gt;-->
+    <!--&lt;!&ndash;                            <mainClass>fully.qualified.MainClass</mainClass>&ndash;&gt;-->
+    <!--&lt;!&ndash;                        </manifest>&ndash;&gt;-->
+    <!--&lt;!&ndash;                    </archive>&ndash;&gt;-->
+    <!--&lt;!&ndash;                    <descriptorRefs>&ndash;&gt;-->
+    <!--&lt;!&ndash;                        <descriptorRef>jar-with-dependencies</descriptorRef>&ndash;&gt;-->
+    <!--&lt;!&ndash;                    </descriptorRefs>&ndash;&gt;-->
+    <!--&lt;!&ndash;                </configuration>&ndash;&gt;-->
+    <!--&lt;!&ndash;            </plugin>&ndash;&gt;-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.apache.maven.plugins</groupId>-->
+    <!--                <artifactId>maven-jar-plugin</artifactId>-->
+    <!--                <configuration>-->
+    <!--                    <archive>-->
+    <!--                        <manifest>-->
+    <!--                            <addClasspath>true</addClasspath>-->
+    <!--                            <mainClass>Main</mainClass>-->
+    <!--                        </manifest>-->
+    <!--                    </archive>-->
+    <!--                </configuration>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
+    <!--    </build>-->
+
+    <!-- https://stackoverflow.com/questions/64944665/why-do-i-get-exception-in-thread-main-java-lang-noclassdeffounderror-org-ope -->
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <!-- Use utf-8 encoding for all files -->
+                    <source>11</source>
+                    <target>11</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>Main</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>
