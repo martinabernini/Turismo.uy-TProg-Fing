@@ -1,0 +1,21 @@
+Ref, RefActiv, Nombre, Fecha, Hora, TuristaMax, Lugar, FechaAlta, Imagen
+S1, A1, Degusta Agosto, 20/08/2022, 17hs, 20, Sociedad Agropecuaria de Rocha, 21/07/2022, salida/Degusta Agosto.jpg
+S2, A1, Degusta Setiembre, 03/09/2022, 17hs, 20, Sociedad Agropecuaria de Rocha, 22/07/2022, salida/Degusta Setiembre.jpg
+S3, A2, Teatro con Sabores 1, 04/09/2022, 18hs, 30, Club Deportivo Unión, 23/07/2022, salida/Teatro con Sabores 1.jpg
+S4, A2, Teatro con Sabores 2, 11/09/2022, 18hs, 30, Club Deportivo Unión, 23/07/2022, salida/Teatro con Sabores 2.jpg
+S5, A3, Tour Colonia del Sacramento 11-09, 11/09/2022, 10hs, 5, Encuentro en la base del Faro, 05/08/2022, salida/Tour Colonia del Sacramento 11-09.jpg
+S6, A3,Tour Colonia del Sacramento 18-09, 18/09/2022, 10hs, 5, Encuentro en la base del Faro, 05/08/2022, salida/Tour Colonia del Sacramento 18-09.jpg
+S7, A4, Almuerzo 1, 18/09/2022, 12hs, 5, Restaurante de la Plaza de Toros, 04/08/2022, salida/_default.jpg
+S8, A4, Almuerzo 2, 25/09/2022, 12hs, 5, Restaurante de la Plaza de Toros, 04/08/2022, salida/_default.jpg
+S9, A5, Almuerzo 3, 10/09/2022, 12hs, 4, Posada Del Lunarejo, 15/08/2022, salida/_default.jpg
+S10, A5, Almuerzo 4, 11/09/2022, 12hs, 4, Posada Del Lunarejo, 15/08/2022, salida/_default.jpg
+S11, A6, Cabalgata 1, 10/09/2022, 16hs, 4, Posada del Lunarejo, 15/08/2022, salida/Cabalgata 1.jpg
+S12, A6, Cabalgata 2, 11/09/2022, 16hs, 4, Posada del Lunarejo, 15/08/2022, salida/_default.jpg
+S13, A1, Degusta Octubre, 30/10/2022, 17hs, 20, Sociedad Agropecuaria de Rocha, 22/09/2022, salida/Degusta Octubre.jpg
+S14, A1, Degusta Noviembre, 05/11/2022, 17hs, 20, Sociedad Agropecuaria de Rocha, 02/10/2022, salida/Degusta Noviembre.jpg
+S15, A2, Teatro con Sabores 3, 11/11/2022, 18hs, 30, Club Deportivo Unión, 25/08/2022, salida/_default.jpg
+S16, A3, Tour Colonia del Sacramento 30-10, 30/10/2022, 10hs, 10, Encuentro en la base del Faro, 07/09/2022, salida/Tour Colonia del Sacramento 30-10.jpg
+S17, A6, Cabalgata Extrema, 30/10/2022, 16hs, 4, Posada del Lunarejo, 15/09/2022, salida/Cabalgata Extrema.jpg
+S18, A4, Almuerzo en el Real 1, 30/10/2022, 12hs, 10, Restaurante de la Plaza de Toros, 10/10/2022, salida/_default.jpg
+S19, A1, Degusta Diciembre, 02/12/2022, 17hs, 20, Sociedad Agropecuaria de Rocha, 07/11/2022, salida/Degusta Diciembre.jpg
+S20, A2, Teatro con Sabores 4, 03/12/2022, 18hs, 30, Club Deportivo Unión, 07/11/2022, salida/_default.jpg
