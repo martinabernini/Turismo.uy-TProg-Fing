@@ -58,7 +58,7 @@ Y queda levantado la página en http://localhost:8080/DispositivoMovil/
 
 ---
 
-Comandos wsimport:
+## Comandos wsimport por si se quiere republicar a mano
 
 ``` bash
 wsimport -keep -p webservices http://localhost:9128/webservices/ControladorActividad?wsdl
