@@ -1,6 +1,20 @@
 # Tprog Tarea 3:
 
 ---
+## Resumen del proyecto
+
+Durante el curso, abordamos tres tareas fundamentales que abarcaron desde la construcción básica en Java hasta aspectos más avanzados del desarrollo de software.
+
+### Tarea 1: Fundamentos en Java y Desarrollo Gráfico
+En la Tarea 1, implementamos construcciones básicas de Java, explorando la creación de interfaces gráficas con Swing y familiarizándonos con herramientas avanzadas como IDEs y SCM. Esto sentó las bases esenciales en la programación en Java.
+
+### Tarea 2: Desarrollo Completo de Aplicación Web
+La Tarea 2 llevó a cabo el desarrollo de una aplicación web completa. Utilizamos tecnologías del lado del cliente, como HTML5, CSS y JavaScript, así como del lado del servidor, incluyendo JSP y Servlets. La aplicación fue sometida a técnicas de verificación para garantizar la calidad del software que estábamos construyendo.
+
+### Tarea 3: Desarrollo Avanzado y Prácticas Profesionales
+En la Tarea 3, nos enfocamos en aspectos avanzados del desarrollo de software. Implementamos la interoperabilidad de aplicaciones distribuidas mediante Web Services, desarrollamos mecanismos de persistencia y aprendimos a desplegar aplicaciones en entornos de producción. También perfeccionamos habilidades profesionales, como el trabajo en grupo, la planificación detallada y la gestión eficiente del tiempo.
+
+---
 
 ## Requerimientos antes de ejecutarlo
 
